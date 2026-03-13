@@ -1,107 +1,53 @@
 {
   "business": {
     "name": "Clínica veterinaria menescal",
-    "tagline": "Cuidamos la salud y belleza de tu mascota",
-    "description": "Expertos en bienestar animal y peluquería profesional en Port de Sagunt. Ofrecemos un trato cercano y especializado para que tu mejor amigo luzca sano y feliz.",
+    "tagline": "Cuidado profesional y bienestar para tu mascota",
+    "description": "Expertos en salud y estética animal en Port de Sagunt. Brindamos un trato cercano y profesional para que tu mejor amigo luzca siempre radiante y saludable.",
     "phone": "+34 689 33 01 35",
     "address": "Av. Joan d' Àustria, 30, 46520 Port de Sagunt, Valencia, España",
     "email": "info@menescalveterinaria.es",
     "rating": 4.6,
-    "reviewCount": 40,
-    "hours": [
-      "Monday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM",
-      "Tuesday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM",
-      "Wednesday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM",
-      "Thursday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM",
-      "Friday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM",
-      "Saturday: Closed",
-      "Sunday: Closed"
-    ]
+    "reviewCount": 52,
+    "hours": ["Monday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM","Tuesday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM","Wednesday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM","Thursday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM","Friday: 11:00 AM – 1:30 PM, 5:30 – 8:00 PM","Saturday: Closed","Sunday: Closed"]
   },
   "theme": {
     "primary": "#2D6A4F",
     "secondary": "#1B4332",
-    "accent": "#FFB703",
+    "accent": "#F4A261",
     "mode": "dark"
   },
   "hero": {
-    "headline": "Bienestar total y estilo para tu mascota",
-    "subheadline": "Desde consultas veterinarias preventivas hasta sesiones de peluquería profesional, garantizamos el máximo confort y salud para tu compañero en Port de Sagunt.",
-    "cta1": {
-      "text": "Pedir Cita Ahora",
-      "href": "#contact"
-    },
-    "cta2": {
-      "text": "Ver Servicios",
-      "href": "#services"
-    },
+    "headline": "La mejor salud y estética para tu mascota en Sagunto",
+    "subheadline": "En Clínica Menescal combinamos experiencia veterinaria y servicios de peluquería profesional para garantizar el bienestar integral de tu compañero fiel.",
+    "cta1": { "text": "Pedir Cita Ahora", "href": "#contact" },
+    "cta2": { "text": "Nuestros Servicios", "href": "#services" },
     "imageUrl": "https://places.googleapis.com/v1/places/ChIJScDSXe8VYA0Rnsum3GGREnY/photos/ATCDNfUJTzUHkTGNIVxhyVDOD9pzMueIXwrCnwMu7NYpowzoIWqVzEsugsFw8uiYMRBBARdP-cXXNvSOJadKNiy7QrYjHNYRsHVZz2IHoOZJ6xTb0L-MvyKVrut_QxGjD0geGKkDvkBFrX5QRTOye0ri58HsIAOk64ubmFjsj7N_OoKQzR3uwiX6fdlOkcQGTyAYeTSRGmCa5nmxXbh6Ij3JfXLRNb21s_FvNIcV41lrf7ItuSWYFX1EWNWIL6j4vQcs9SnU_RpsCB6kae4nJYx1WjVUU7_9c7Xo-zrNWHf-5Sk/media?maxWidthPx=1200&key=AIzaSyAVvBWUrtTMnut45RFBuVKNz61wSg1Ebd8"
   },
   "services": [
-    {
-      "icon": "✂️",
-      "title": "Peluquería Profesional",
-      "description": "Cortes adaptados a la raza y necesidades de tu mascota. Utilizamos productos de alta calidad para un acabado impecable."
-    },
-    {
-      "icon": "🩺",
-      "title": "Consultas Veterinarias",
-      "description": "Revisiones exhaustivas para prevenir enfermedades. Tu tranquilidad es nuestra prioridad absoluta."
-    },
-    {
-      "icon": "🛁",
-      "title": "Higiene y Cuidado",
-      "description": "Baños, corte de uñas y limpieza de oídos. Mantenemos a tu mascota impecable y libre de molestias."
-    },
-    {
-      "icon": "🐾",
-      "title": "Asesoramiento Nutricional",
-      "description": "Guía experta en alimentación para asegurar que tu mascota crezca sana y llena de vitalidad."
-    }
+    { "icon": "✂️", "title": "Peluquería Canina", "description": "Cortes de raza, baños terapéuticos y cuidados de piel. Dejamos a tu mascota impecable y relajada." },
+    { "icon": "🩺", "title": "Consulta Veterinaria", "description": "Diagnóstico preciso y seguimiento preventivo. Cuidamos de su salud desde la base con tecnología avanzada." },
+    { "icon": "🦷", "title": "Higiene Bucodental", "description": "Limpiezas dentales profesionales para prevenir infecciones y mejorar la calidad de vida de tu mascota." },
+    { "icon": "🐾", "title": "Bienestar Integral", "description": "Asesoramiento nutricional y control de peso personalizado. Tu compañero se merece los mejores cuidados profesionales." }
   ],
   "about": {
-    "title": "Comprometidos con el amor animal",
-    "text": "En Clínica Veterinaria Menescal, entendemos que tu mascota es un miembro más de la familia. Por ello, combinamos experiencia veterinaria con un servicio de estética animal dedicado a resaltar su belleza natural.\n\nNos diferenciamos por ofrecer un trato individualizado en un entorno relajado, minimizando el estrés de tu mascota durante cada visita en el corazón del Port de Sagunt.",
+    "title": "Pasión por el bienestar animal",
+    "text": "En Clínica Menescal, nuestra misión es ofrecer un servicio de alta calidad donde la salud y la estética van de la mano. Nos enorgullece ser un referente en Port de Sagunt, basando nuestra labor en la empatía, el trato personalizado y una atención veterinaria de excelencia.\n\nContamos con años de experiencia dedicados al cuidado de perros y gatos, asegurando que cada visita sea una experiencia positiva y libre de estrés para tu mascota.",
     "imageUrl": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80"
   },
   "gallery": [
-    {
-      "url": "https://places.googleapis.com/v1/places/ChIJScDSXe8VYA0Rnsum3GGREnY/photos/ATCDNfUJTzUHkTGNIVxhyVDOD9pzMueIXwrCnwMu7NYpowzoIWqVzEsugsFw8uiYMRBBARdP-cXXNvSOJadKNiy7QrYjHNYRsHVZz2IHoOZJ6xTb0L-MvyKVrut_QxGjD0geGKkDvkBFrX5QRTOye0ri58HsIAOk64ubmFjsj7N_OoKQzR3uwiX6fdlOkcQGTyAYeTSRGmCa5nmxXbh6Ij3JfXLRNb21s_FvNIcV41lrf7ItuSWYFX1EWNWIL6j4vQcs9SnU_RpsCB6kae4nJYx1WjVUU7_9c7Xo-zrNWHf-5Sk/media?maxWidthPx=1200&key=AIzaSyAVvBWUrtTMnut45RFBuVKNz61wSg1Ebd8",
-      "alt": "Fachada de la clínica veterinaria"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80",
-      "alt": "Perro siendo atendido con cariño"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80",
-      "alt": "Servicio de peluquería canina"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&q=80",
-      "alt": "Instalaciones limpias y profesionales"
-    }
+    { "url": "https://places.googleapis.com/v1/places/ChIJScDSXe8VYA0Rnsum3GGREnY/photos/ATCDNfUJTzUHkTGNIVxhyVDOD9pzMueIXwrCnwMu7NYpowzoIWqVzEsugsFw8uiYMRBBARdP-cXXNvSOJadKNiy7QrYjHNYRsHVZz2IHoOZJ6xTb0L-MvyKVrut_QxGjD0geGKkDvkBFrX5QRTOye0ri58HsIAOk64ubmFjsj7N_OoKQzR3uwiX6fdlOkcQGTyAYeTSRGmCa5nmxXbh6Ij3JfXLRNb21s_FvNIcV41lrf7ItuSWYFX1EWNWIL6j4vQcs9SnU_RpsCB6kae4nJYx1WjVUU7_9c7Xo-zrNWHf-5Sk/media?maxWidthPx=1200&key=AIzaSyAVvBWUrtTMnut45RFBuVKNz61wSg1Ebd8", "alt": "Fachada Clínica Menescal" },
+    { "url": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80", "alt": "Peluquería canina profesional" },
+    { "url": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1200&q=80", "alt": "Consulta veterinaria" },
+    { "url": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80", "alt": "Cuidado animal" }
   ],
   "testimonials": [
-    {
-      "name": "Marta G.",
-      "stars": 5,
-      "text": "Excelente trato, mi perro salió encantado de la peluquería y muy tranquilo. Repetiremos sin duda."
-    },
-    {
-      "name": "Javier P.",
-      "stars": 5,
-      "text": "Profesionales de confianza. Se nota que les apasiona su trabajo y el bienestar de los animales."
-    },
-    {
-      "name": "Elena R.",
-      "stars": 4,
-      "text": "Muy buen servicio, tanto en la clínica como en el salón de belleza. Atención muy personalizada."
-    }
+    { "name": "Marta G.", "stars": 5, "text": "Trato excepcional y muy profesionales. Mi perrita salió guapísima y muy tranquila tras el baño." },
+    { "name": "Javier L.", "stars": 5, "text": "El mejor sitio de Sagunto para la salud de mi mascota. Se nota que aman lo que hacen." },
+    { "name": "Elena R.", "stars": 4, "text": "Servicio de peluquería impecable. Muy recomendable si buscas calidad y atención cercana." }
   ],
   "contact": {
-    "title": "¡Reserva una cita hoy mismo!",
-    "subtitle": "Estamos cerca de ti en Av. Joan d' Àustria. Llámanos o escríbenos por WhatsApp para agendar tu visita.",
+    "title": "¡Reserva una cita para tu mascota hoy!",
+    "subtitle": "Estamos listos para cuidar de tu mejor amigo. Contáctanos vía telefónica o visítanos en nuestro centro.",
     "whatsappNumber": "+34 689 33 01 35",
     "showMap": true,
     "mapQuery": "Clínica veterinaria menescal Av. Joan d' Àustria, 30, 46520 Port de Sagunt, Valencia, España"
